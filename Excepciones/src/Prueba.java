@@ -47,6 +47,24 @@ public static void cadenaLeer () throws DavidException{
 	System.out.println(Integer.parseInt(cadena));
 }
 
+public String[] split (String cadena, char deli) throws DavidException {
+	int contador=0;
+	for (int i = 0; i < cadena.length; i++) {		
+	
+	if (cadena.charAt(i)== deli) {
+		contador = cadena.length();
+		
+	} else {
+		throw new DavidException("no esta el limitador");
+		
+	}
+	String [] array = new array [contador+1];
+	StringBuffer sr = new StringBuffer();
+	if (cadena.charAt(i)==deli) {
+		sr.append()
+	}
+	}
+}
 
 
 
