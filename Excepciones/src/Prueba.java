@@ -99,7 +99,20 @@ public class Prueba {
 
 	}
 
-
+public static int factorialDeUnNumero (int num) throws DavidException {
+	if (num>0) {
+		throw new DavidException("el numero no puede ser negativo");
+	}
+	if (num>99999) {
+		throw new DavidException("el numero no puede superar las 5 cifras");
+	}
+	int resultado =1;
+	for (int i = 1; i < num; i++) {
+		resultado= resultado*i;
+		
+	}
+	return resultado;
+}
 
 }
 
