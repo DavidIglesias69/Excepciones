@@ -19,12 +19,12 @@ public class Prueba {
 
 
 
-	public static double division() throws DavidException{
-		Scanner sr = new Scanner(System.in);
+	public static double division(int num1, int num2) throws DavidException{
+		/*Scanner sr = new Scanner(System.in);
 		System.out.println("dime el primer numero");
 		int num1= sr.nextInt();
 		System.out.println("dime el primer numero");
-		int num2= sr.nextInt();
+		int num2= sr.nextInt();*/
 		if (num2==0) {
 			throw new DavidException("no se puede hacer esa operacion prohibido dividir entre 0.");
 
