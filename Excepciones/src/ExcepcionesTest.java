@@ -8,7 +8,7 @@ class ExcepcionesTest {
 	@Test
 	void testOutOfBounds() {
 		int[] numeros= new int[5];
-		assertThrows(IndexOfBoundsException.class, ()-> {System.out.println(numeros[6]);
+		assertThrows(IndexOutOfBoundsException.class, ()-> {System.out.println(numeros[6]);
 		}
 		);
 		
